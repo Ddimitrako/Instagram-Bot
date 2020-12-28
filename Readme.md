@@ -1,3 +1,4 @@
+# Purpose of the project 
 The purpose of this project is to auto comment in instagram
 giveaway-competitions an win some extra posibilities to win by letting
 the bot auto comment contuniusly The bot starts by reading a
@@ -9,7 +10,7 @@ instagram from blocking the bot comments after they are continiusly. It
 uses an increasingly random time algorithm between comments so this way
 it can extend its operation time
 
-How to use the code:
+# How to use the code:
 
 1.Install geckodriver.exe in a path an then copy the path to the
 Instagram\_bot.py in line 6 geckodriver is used to acess Mozilla
