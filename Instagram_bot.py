@@ -33,7 +33,8 @@ def start():
         # create the csv writer
         writer = csv.writer(f)
         for i in range(10):
-            driver.get(f"https://www.vrisko.gr/search/Κτηνιατρεία-Κτηνιατρικές-Κλινικές/?page={i}")
+            # driver.get(f"https://www.vrisko.gr/search/Κτηνιατρεία-Κτηνιατρικές-Κλινικές/?page={i}")
+            driver.get(f"https://www.vrisko.gr/search/Κτηνίατροι/Αττικής/?page={i}")
             time.sleep(3)
 
             # acceptCookies= driver.find_element_by_xpath("/html/body/div[2]/div/div/div/div[2]/button[1]")
