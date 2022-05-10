@@ -34,8 +34,8 @@ def start():
         writer = csv.writer(f)
         for i in range(10):
             # driver.get(f"https://www.vrisko.gr/search/Κτηνιατρεία-Κτηνιατρικές-Κλινικές/?page={i}")
-            driver.get(f"https://www.vrisko.gr/search/Κτηνίατροι/Αττικής/?page={i}")
-            time.sleep(3)
+            driver.get(f"https://www.vrisko.gr/search/%CE%BC%CE%B5%CF%83%CE%B9%CF%84%CE%B7%CF%82/%CE%91%CE%B8%CE%AE%CE%BD%CE%B1-%CE%91%CE%A4%CE%A4%CE%99%CE%9A%CE%97%CE%A3/?page={i}")
+            time.sleep(2)
 
             # acceptCookies= driver.find_element_by_xpath("/html/body/div[2]/div/div/div/div[2]/button[1]")
             # acceptCookies.click()
@@ -44,21 +44,24 @@ def start():
             # usr_ent = driver.find_element_by_xpath("/html/body/div[1]/section/main/article/div[2]/div[1]/div/form/div/div[1]/div/label/input")
             # usr_ent.clear()
             # usr_ent.send_keys(usr)
-            # time.sleep(2)
-            for i in range(20):
-                div = driver.find_element(By.ID, 'AreaLeft_' + str(i))
-                href = div.find_element_by_css_selector('a').get_attribute('href')
-                # print(href)
-                hrefList.append(href)
-                writer.writerow([href])
+            try:
+                for i in range(20):
 
+                    div = driver.find_element(By.ID, 'AreaLeft_' + str(i))
+                    href = div.find_element_by_css_selector('a').get_attribute('href')
+                    # print(href)
+                    hrefList.append(href)
+                    writer.writerow([href])
+            except Exception as e:
+                print(e)
     print(len(hrefList))
-    timeDelay=10
+    timeDelay=4
     for href in hrefList:
         flag1=False
         flag2=False
         flag3=False
         flag4=False
+        flag5=False
         with open('vetdata.csv', 'a', encoding='UTF8',newline='') as f:
             writer = csv.writer(f)
             row = []
@@ -92,9 +95,17 @@ def start():
             except:
                 flag4 = True
                 print("companyLocation not exists")
+            try:
+                telephone = driver.find_element_by_xpath('//*[@id="phones"]').text
+                # telephone = telephoneDiv.find_element_by_css_selector('label').get_attribute('href')
+                print(telephone)
+                row.append(telephone)
+            except:
+                flag5 = True
+                print("companyLocation not exists")
             print(row)
             print('#####################################')
-            if flag1 & flag2 & flag3 & flag4 :
+            if flag1 & flag2 & flag3 & flag4 & flag5:
                 timeDelay=timeDelay+5
                 f.close()
             else:
