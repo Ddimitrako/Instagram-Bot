@@ -8,9 +8,19 @@ import csv
 from random import randrange
 
 options = Options()
-options.binary_location = r"C:\Users\dimitris\AppData\Local\Mozilla Firefox\firefox.exe"
-driver = webdriver.Firefox(executable_path=r'C:\Users\dimitris\geckodriver.exe', options=options)
+options.binary_location = r"C:\Program Files\Mozilla Firefox\firefox.exe"
+# driver = webdriver.Firefox(executable_path=r'C:\Users\dimitris\geckodriver.exe', options=options)
 
+from selenium.webdriver.firefox.service import Service
+
+# Set path to the geckodriver executable
+path = r'C:\Users\dimitris\geckodriver.exe'
+
+# Create a Service object with the path to the geckodriver executable
+service = Service(executable_path=path)
+
+# Pass the Service object as an argument to the Firefox driver
+driver = webdriver.Firefox(service=service, options=options)
 
 def get_data_from_href():
     with open('href_list.csv', 'r', encoding='UTF8') as f:

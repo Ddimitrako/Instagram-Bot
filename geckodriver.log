@@ -1,0 +1,47 @@
+1682177545036	geckodriver	INFO	Listening on 127.0.0.1:54572
+1682177555935	geckodriver	INFO	Listening on 127.0.0.1:54586
+1682177620654	geckodriver	INFO	Listening on 127.0.0.1:54630
+1682178239869	geckodriver	INFO	Listening on 127.0.0.1:54765
+1682186063701	geckodriver	INFO	Listening on 127.0.0.1:55601
+1682186084824	geckodriver	INFO	Listening on 127.0.0.1:55619
+1682186265132	geckodriver	INFO	Listening on 127.0.0.1:55632
+1682186404791	geckodriver	INFO	Listening on 127.0.0.1:55657
+1682186413881	geckodriver	INFO	Listening on 127.0.0.1:55669
+1682186462533	geckodriver	INFO	Listening on 127.0.0.1:55688
+1682186533576	geckodriver	INFO	Listening on 127.0.0.1:55706
+1682186731978	geckodriver	INFO	Listening on 127.0.0.1:55801
+1682186797284	geckodriver	INFO	Listening on 127.0.0.1:55818
+1682186840400	geckodriver	INFO	Listening on 127.0.0.1:55831
+1682187011822	geckodriver	INFO	Listening on 127.0.0.1:55881
+1682187014908	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55882" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\DDIMIT~1\\AppData\\Local\\Temp\\rust_mozprofiledscdrd"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1682187015635	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1682187015644	Marionette	INFO	Listening on port 55892
+Read port: 55892
+WebDriver BiDi listening on ws://127.0.0.1:55882
+1682187016055	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\DDIMIT~1\\AppData\\Local\\Temp\\rust_mozprofiledscdrd\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:55882/devtools/browser/125dcce9-edb0-4776-b300-98c96ff44604
+1682187025284	Marionette	INFO	Stopped listening on port 55892
+Dynamically enable window occlusion 1
+console.error: (new AbortError("IndexedDB: main/url-classifier-skip-urls list() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/IDBHelpers.jsm", 18))
+1682187029416	geckodriver	INFO	Listening on 127.0.0.1:55920
+1682187032494	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55921" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\DDIMIT~1\\AppData\\Local\\Temp\\rust_mozprofile96VqFE"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1682187033160	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1682187033168	Marionette	INFO	Listening on port 55931
+Read port: 55931
+WebDriver BiDi listening on ws://127.0.0.1:55921
+1682187033562	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\DDIMIT~1\\AppData\\Local\\Temp\\rust_mozprofile96VqFE\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:55921/devtools/browser/579b56b6-4d29-4791-bb43-f98b7ccf80c2
+1682187040473	Marionette	INFO	Stopped listening on port 55931
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function
+console.error: (new Error("IndexedDB: main/url-classifier-skip-urls list() IndexedDB:  execute() The application is shutting down", "resource://services-settings/IDBHelpers.jsm", 18))
