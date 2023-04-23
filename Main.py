@@ -13,8 +13,8 @@ import os
 from os.path import exists
 
 from Instagram_bot import *
-#get_data_from_href()
-start() #add the credentials here as login(username,password)
+get_all_urls()
+# start_Ai() #add the credentials here as login(username,password)
 #driver.get(f"https://www.instagram.com/p/CGFbPWSntmr/")
 
 

@@ -45,3 +45,90 @@ DevTools listening on ws://127.0.0.1:55921/devtools/browser/579b56b6-4d29-4791-b
 Dynamically enable window occlusion 1
 !!! error running onStopped callback: TypeError: callback is not a function
 console.error: (new Error("IndexedDB: main/url-classifier-skip-urls list() IndexedDB:  execute() The application is shutting down", "resource://services-settings/IDBHelpers.jsm", 18))
+1682187383858	geckodriver	INFO	Listening on 127.0.0.1:55979
+1682187386959	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55980" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\DDIMIT~1\\AppData\\Local\\Temp\\rust_mozprofilep3TV9I"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1682187387832	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1682187387842	Marionette	INFO	Listening on port 55988
+Read port: 55988
+WebDriver BiDi listening on ws://127.0.0.1:55980
+1682187388344	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\DDIMIT~1\\AppData\\Local\\Temp\\rust_mozprofilep3TV9I\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+1682187393143	Marionette	INFO	Stopped listening on port 55988
+Dynamically enable window occlusion 1
+1682187393179	CDP	WARN	Failed to remove undefined (Could not parse path (undefined): NS_ERROR_FILE_UNRECOGNIZED_PATH)
+console.error: "Could not load engine ddg@search.mozilla.org: Error: XPIProvider can't start bootstrap scope for ddg@search.mozilla.org after shutdown was already granted"
+console.warn: SearchService: "#init: abandoning init due to shutting down"
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: , line 0: uncaught exception: 2147500036
+1682187423593	geckodriver	INFO	Listening on 127.0.0.1:56007
+1682187426674	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56008" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\DDIMIT~1\\AppData\\Local\\Temp\\rust_mozprofilepyGYEi"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1682187427588	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1682187427596	Marionette	INFO	Listening on port 56018
+Read port: 56018
+WebDriver BiDi listening on ws://127.0.0.1:56008
+1682187428124	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\DDIMIT~1\\AppData\\Local\\Temp\\rust_mozprofilepyGYEi\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:56008/devtools/browser/861fa708-8e5a-4c87-8957-18fd4de79ec9
+1682187436935	Marionette	INFO	Stopped listening on port 56018
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function
+console.error: (new Error("IndexedDB: main/url-classifier-skip-urls list() IndexedDB:  execute() The application is shutting down", "resource://services-settings/IDBHelpers.jsm", 18))
+1682188221299	geckodriver	INFO	Listening on 127.0.0.1:56401
+1682188224387	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56402" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\DDIMIT~1\\AppData\\Local\\Temp\\rust_mozprofileQNP5Nh"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1682188225355	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1682188225372	Marionette	INFO	Listening on port 56415
+Read port: 56415
+WebDriver BiDi listening on ws://127.0.0.1:56402
+1682188225950	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\DDIMIT~1\\AppData\\Local\\Temp\\rust_mozprofileQNP5Nh\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:56402/devtools/browser/d43ab6a2-411a-4cc8-9779-1159eb7202cb
+1682188279347	geckodriver	INFO	Listening on 127.0.0.1:56472
+1682188282429	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56473" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\DDIMIT~1\\AppData\\Local\\Temp\\rust_mozprofilePXbHTn"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1682188283300	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1682188283316	Marionette	INFO	Listening on port 56485
+Read port: 56485
+WebDriver BiDi listening on ws://127.0.0.1:56473
+1682188284060	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\DDIMIT~1\\AppData\\Local\\Temp\\rust_mozprofilePXbHTn\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:56473/devtools/browser/acd29435-6818-45f3-b82a-dce601d3a0ad
+Port.onMessage event fired while context is inactive.
+Port.onMessage event fired while context is inactive.
+1682188320529	Marionette	INFO	Stopped listening on port 56485
+Dynamically enable window occlusion 1
+1682188425256	geckodriver	INFO	Listening on 127.0.0.1:56608
+1682188428334	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56609" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\DDIMIT~1\\AppData\\Local\\Temp\\rust_mozprofile0O9XhI"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1682188429017	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1682188429025	Marionette	INFO	Listening on port 56621
+Read port: 56621
+WebDriver BiDi listening on ws://127.0.0.1:56609
+1682188429413	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\DDIMIT~1\\AppData\\Local\\Temp\\rust_mozprofile0O9XhI\\search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:56609/devtools/browser/4063082d-ba39-43d0-8818-61332b439328
+1682188530535	geckodriver	INFO	Listening on 127.0.0.1:56712
+1682188551201	geckodriver	INFO	Listening on 127.0.0.1:56737
+1682188593872	geckodriver	INFO	Listening on 127.0.0.1:56796
+1682188632198	geckodriver	INFO	Listening on 127.0.0.1:56829
