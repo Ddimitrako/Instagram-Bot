@@ -11,9 +11,25 @@ import time
 import random
 import os
 from os.path import exists
+import pandas as pd
 
-from Instagram_bot import *
-get_all_urls()
+def clean_duplicate():
+    
+
+    # Replace 'input_file.csv' with the path to your CSV file
+    df = pd.read_csv('futurepedia_1.csv')
+
+    # Remove duplicate rows
+    df.drop_duplicates(inplace=True)
+
+    # Replace 'output_file.csv' with the path to your desired output CSV file
+    df.to_csv('removeduplicaterows.csv', index=False)
+
+# clean_duplicate()
+from futepedia_Bot import *
+# startScrapingUrls()
+getDataFromUrl()
+# get_all_urls()
 # start_Ai() #add the credentials here as login(username,password)
 #driver.get(f"https://www.instagram.com/p/CGFbPWSntmr/")
 
